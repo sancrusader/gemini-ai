@@ -55,7 +55,6 @@ const ContextProvider = (props) => {
 			}
 		} catch (error) {
 			console.error("Error while running chat:", error);
-			// Handle error appropriately
 		} finally {
 			setLoading(false);
 			setInput("");

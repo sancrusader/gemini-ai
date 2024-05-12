@@ -27,9 +27,9 @@ const Main = () => {
 					<>
 						<div className="greet">
 							<p>
-								<span>SandiFox Ai </span>
+								<span>SandiFox Ai</span>
 							</p>
-							<p>How Can i Help You Today?</p>
+							{/* <p>How Can i Help You Today?</p> */}
 						</div>
 						{/* <div className="cards">
 							<div
