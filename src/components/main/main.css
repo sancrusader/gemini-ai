@@ -154,3 +154,8 @@ animation: loader 4s infinite linear;
     font-weight: 300px;
     line-height: 1.8;
 }
+@media (max-width: 600px) {
+    .main {
+        padding-bottom: 10vh; /* Adjust spacing */
+    }
+}

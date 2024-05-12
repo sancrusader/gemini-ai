@@ -31,27 +31,7 @@ const Main = () => {
 							</p>
 							<p>How Can i Help You Today?</p>
 						</div>
-						<div className="cards">
-							<div
-								className="card"
-								onClick={() =>
-									handleCardClick("Suggest Some Place To Visit In Kerala")
-								}
-							>
-								<p>Suggest Some Place To Visit In Kerala </p>
-								<img src={assets.compass_icon} alt="" />
-							</div>
-							<div
-								className="card"
-								onClick={() =>
-									handleCardClick(
-										"Brainstorm team bonding activities for our work retreat"
-									)
-								}
-							>
-								<p>Brainstorm team bonding activities for our work retreat </p>
-								<img src={assets.message_icon} alt="" />
-							</div>
+						{/* <div className="cards">
 							<div
 								className="card"
 								onClick={() =>
@@ -72,7 +52,7 @@ const Main = () => {
 								<p>Create a Script for the youtube video about coding </p>
 								<img src={assets.code_icon} alt="" />
 							</div>
-						</div>
+						</div> */}
 					</>
 				) : (
 					<div className="result">
@@ -106,8 +86,8 @@ const Main = () => {
 							placeholder="Enter the Prompt Here"
 						/>
 						<div>
-							<img src={assets.gallery_icon} alt="" />
-							<img src={assets.mic_icon} alt="" />
+							{/* <img src={assets.gallery_icon} alt="" />
+							<img src={assets.mic_icon} alt="" /> */}
 							<img
 								src={assets.send_icon}
 								alt=""
@@ -119,8 +99,8 @@ const Main = () => {
 					</div>
 					<div className="bottom-info">
 						<p>
-							Gemini may display inaccurate info, including about people, so
-							double-check its responses. Your privacy & Gemini Apps
+							SandiFox AI may display inaccurate info, including about people, so
+							double-check its responses. Your privacy & SandiFox AI
 						</p>
 					</div>
 				</div>
